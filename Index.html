@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DiagnoAI</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logNavbar">
+                <h1>Diagno<span>AI</span></h1>
+            </div>
+
+            <div class="navlink">
+                <ul>
+                    <li> <h4>Welcome User1</h4> </li>
+                    <li> <a href="#">LogOut</a> </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    
+    <hr>
+
+    <div class="container">
+        <div class="left-content">
+            <ul>
+                <li> <button type="submit" id="MenuPeriksa" class="menu "> Periksa </button> </li>
+                <div id="Periksa">
+                    <ul>
+                        <li> <button type="submit" id="MenuDiagnos" class="menu "> Diagnos </button> </li>
+                        <li> <button type="submit" id="MenuHistoryDiagnosa" class="menu "> History Diagnosa </button> </li>
+                    </ul>
+                </div>
+                <li> <button type="submit" id="MenuDaftarPenyakit" class="menu "> Daftar Penyakit </button> </li>
+                <li> <button type="submit" id="MenuBantuan" class="menu "> Bantuan </button> </li>
+                <li> <button type="submit" id="MenuTentang" class="menu "> Tentang </button> </li>
+            </ul>
+        </div>
+
+        <!-- start Periksa -->
+        <div id="Diagnos">
+            <div class="title">
+                <h5> Selamat Datang di halaman Diagnosa </h5>
+                <p id="text"> Untuk membantu dalam mendiagnosa, silahkan memilih dengan cara mengklik pada kotak
+                    checkbox dibawah ini dari gejala - gejala yang anda rasakan
+                </p>
+            </div>
+            <div class="main">
+                <div class="row">
+                    <input id="like" type="checkbox" name="penyakit"> <p> Nyeri Ulu Hati </p> <br>
+                    <input id="like" type="checkbox" name="penyakit"> <p> Mual </p> <br>
+                    <input id="like" type="checkbox" name="penyakit"> <p> Pusing </p> <br>
+                    <input id="like" type="checkbox" name="penyakit"> <p> Demam </p> <br>
+                    <input id="like" type="checkbox" name="penyakit"> <p> Pilek </p> <br>
+                    <input id="like" type="checkbox" name="penyakit"> <p> Hidung Tersumbat </p> <br>
+                    <input id="like" type="checkbox" name="penyakit"> <p> Sakit Kepala </p> <br>
+                    <input id="like" type="checkbox" name="penyakit"> <p> Ada Bintik Merah </p> <br>
+                    <input id="like" type="checkbox" name="penyakit"> <p> Menggigil </p> <br>
+                    <input id="like" type="checkbox" name="penyakit"> <p> Hilang Nafsu Makan </p> <br>
+                </div>
+                
+                <div class="row">
+                    <input id="like" type="checkbox" name="penyakit"> <p> Pandangan Kabur </p> <br>
+                    <input id="like" type="checkbox" name="penyakit"> <p> Gemetar </p> <br>
+                    <input id="like" type="checkbox" name="penyakit"> <p> Sesak Nafas </p> <br>
+                    <input id="like" type="checkbox" name="penyakit"> <p> Batuk </p> <br>
+                    <input id="like" type="checkbox" name="penyakit"> <p> Penurunan BB </p> <br>
+                    <input id="like" type="checkbox" name="penyakit"> <p> Sering Bersin </p> <br>
+                    <input id="like" type="checkbox" name="penyakit"> <p> Jantung Berdebar </p> <br>
+                    <input id="like" type="checkbox" name="penyakit"> <p> Mudah lelah </p> <br>
+                    <input id="like" type="checkbox" name="penyakit"> <p> Mata Merah </p> <br>
+                    <input id="like" type="checkbox" name="penyakit"> <p> Timbul bintik merah </p> <br>
+                </div>
+
+                <div class="row">
+                    <input id="like" type="checkbox" name="penyakit"> <p> Nyeri Ulu Hati </p> <br>
+                    <input id="like" type="checkbox" name="penyakit"> <p> Mual </p> <br>
+                    <input id="like" type="checkbox" name="penyakit"> <p> Pusing </p> <br>
+                    <input id="like" type="checkbox" name="penyakit"> <p> Demam </p> <br>
+                    <input id="like" type="checkbox" name="penyakit"> <p> Pilek </p> <br>
+                    <input id="like" type="checkbox" name="penyakit"> <p> Hidung Tersumbat </p> <br>
+                    <input id="like" type="checkbox" name="penyakit"> <p> Sakit Kepala </p> <br>
+                    <input id="like" type="checkbox" name="penyakit"> <p> Ada Bintik Merah </p> <br>
+                    <input id="like" type="checkbox" name="penyakit"> <p> Menggigil </p> <br>
+                    <input id="like" type="checkbox" name="penyakit"> <p> Hilang Nafsu Makan </p> <br>
+                </div>
+                
+                <div class="row">
+                    <input id="like" type="checkbox" name="penyakit"> <p> Pandangan Kabur </p> <br>
+                    <input id="like" type="checkbox" name="penyakit"> <p> Gemetar </p> <br>
+                    <input id="like" type="checkbox" name="penyakit"> <p> Sesak Nafas </p> <br>
+                    <input id="like" type="checkbox" name="penyakit"> <p> Batuk </p> <br>
+                    <input id="like" type="checkbox" name="penyakit"> <p> Penurunan BB </p> <br>
+                    <input id="like" type="checkbox" name="penyakit"> <p> Sering Bersin </p><br>
+                    <input id="like" type="checkbox" name="penyakit"> <p> Jantung Berdebar </p> <br>
+                    <input id="like" type="checkbox" name="penyakit"> <p> Mudah lelah </p> <br>
+                    <input id="like" type="checkbox" name="penyakit"> <p> Mata Merah </p> <br>
+                    <input id="like" type="checkbox" name="penyakit"> <p> Timbul bintik merah </p> <br>
+                </div>
+
+                <div class="row">
+                    <input id="like" type="checkbox" name="penyakit"> <p> Pandangan Kabur </p> <br>
+                    <input id="like" type="checkbox" name="penyakit"> <p> Gemetar </p> <br>
+                    <input id="like" type="checkbox" name="penyakit"> <p> Sesak Nafas </p> <br>
+                    <input id="like" type="checkbox" name="penyakit"> <p> Batuk </p> <br>
+                    <input id="like" type="checkbox" name="penyakit"> <p> Penurunan BB </p> <br>
+                    <input id="like" type="checkbox" name="penyakit"> <p> Sering Bersin </p> <br>
+                    <input id="like" type="checkbox" name="penyakit"> <p> Jantung Berdebar </p> <br>
+                    <input id="like" type="checkbox" name="penyakit"> <p> Mudah lelah </p> <br>
+                    <input id="like" type="checkbox" name="penyakit"> <p> Mata Merah </p> <br>
+                    <input id="like" type="checkbox" name="penyakit"> <p> Timbul bintik merah </p> <br>
+                </div>
+            </div>
+
+            <div class="footer-periksa">
+                <div class="button">
+                    <button type="submit" id="SubmitDiagnos" class="btn"> Sumbit </button>
+                    <button type="reset" id="backDiagnos" class="btn"> Close </button>
+                </div>
+            </div>
+        </div>
+        <!-- end periksa -->
+
+        <!-- start history diagnosa  -->
+        <div id="HistoryDiagnosa">
+            <div class="content-history">
+                <div class="history">
+                    <h3> History Diagnosa </h3>
+                    <h4>Tanggal Periksa</h4>                     
+                    <input type="date" id="year" class="input-form" min="1900" max="2026" />
+                    <br> <h4> Nama Penyakit </h4>
+                    <input type="text" id="namaPenyakit" placeholder="Nama Penyakit" class="input-form" maxlength="120" pattern="^[a-zA-Z0-9_ ]*$" required />
+                    
+                    <div class="footer-periksa">
+                        <div class="button">
+                            <button type="submit" id="submitHistoryDiagnosa" class="btn"> Sumbit </button>
+                            <button type="reset" id="backHistoryDiagnosa" class="btn"> Close </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <table border="1px solid black" >
+                <tr class="judul" style="font-size: 18px; height: 50px;" >
+                    <th> No </th>
+                    <th> Tanggal Periksa </th>
+                    <th> Nama Dokter </th>
+                    <th> Nama Penyakit </th>
+                    <th> Keterangan </th>
+                    <th> Detail </th>
+                </tr>
+
+                <tr class="table">
+                    <td class="column number">
+                        <ul class="space">
+                            <li> 1 </li>
+                            <li> 2 </li>
+                            <li> 3 </li>
+                        </ul class="space">
+                    </td>
+                    <td class="column">
+                        <ul class="space">
+                            <li> 12/12/12 </li>
+                            <li> 12/12/12 </li>
+                            <li> 12/12/12</li>
+                        </ul class="space">
+                    </td>
+                    <td class="column">
+                        <ul class="space">
+                            <li> Dr. Manja </li>
+                            <li> Dr. Manja </li>
+                            <li> Dr. Manja </li>
+                        </ul class="space">
+                    </td>
+                    <td class="column">
+                        <ul class="space">
+                            <li> Demam </li>
+                            <li>Demam </li>
+                            <li>Demam </li>
+                        </ul class="space">
+                    </td>
+                    <td class="column">
+                        <ul class="space">
+                            <li> Kurang Istirahat </li>
+                            <li> Kurang Istirahat</li>
+                            <li> Kurang Istirahat </li>
+                        </ul class="space">
+                    </td>
+                    <td class="column">
+                        <ul class="space">
+                            <li> <button type="submit" id="MenuDetail" class="detail"> Detail </button> </li>
+                            <li> <button type="submit" id="MenuDetail" class="detail"> Detail </button> </li>
+                            <li> <button type="submit" id="MenuDetail" class="detail"> Detail </button> </li>
+                        </ul class="space">
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <!-- end history diagnosa  -->
+
+        <!-- start detail history diagnosa  -->
+        <div id="DtHistoryDs">
+            <section class="my-container">
+                <h2> Diagnosa Details </h2>
+                <div class="form">
+                    <div class="box">
+                        <h4>No</h4>
+                        <div class="HsRow">
+                            <p>1</p>
+                        </div>    
+                    </div>
+    
+                    <div class="box">
+                        <h4>Tanggal Periksa</h4>
+                        <div class="HsRow">
+                            <p>12/12/12</p>
+                        </div>
+                    </div>
+    
+                    <div class="box">
+                        <h4>Nama Dokter </h4>
+                        <div class="HsRow">
+                            <p>Dr. Usman</p>
+                        </div>
+                    </div>
+    
+                    <div class="box">
+                        <h4>Nama Penyait</h4>
+                        <div class="HsRow">
+                            <p>Demam</p>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <h4>Keterangan</h4>
+                        <div class="HsRow">
+                            <p>Kurang Istirahat</p>
+                        </div>
+                    </div>
+
+                    <div class="button">
+                        <button type="reset" id="backDetail" class="btn"> Close </button>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!-- End Detail history Diagnosa  -->
+
+        <!-- Start Daftar Penyakit  -->
+        <div id="DaftarPenyakit">
+            <div class="content-history">
+                <div class="history">
+                    <h3> Daftar Penyakit </h3>
+                    <h4>Kode Penyakit</h4>                     
+                    <input type="text" id="Penyakit" placeholder="Nama Penyakit" class="input-form" maxlength="120" pattern="^[a-zA-Z0-9_ ]*$" required />
+                    <br> <h4> Nama Penyakit </h4>
+                    <input type="text" id="Penyakit" placeholder="Nama Penyakit" class="input-form" maxlength="120" pattern="^[a-zA-Z0-9_ ]*$" required />
+                    <br> <h4> Gejala </h4>
+                    <input type="text" id="Penyakit" placeholder="Nama Penyakit" class="input-form" maxlength="120" pattern="^[a-zA-Z0-9_ ]*$" required />
+                    
+                    <div class="footer-periksa">
+                        <div class="button">
+                            <button type="submit" id="submitDaftarPenyakit" class="btn"> Search </button>
+                            <button type="reset" id="backDaftarPenyakit" class="btn"> Reset </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <table border="1px solid black" class="tb">
+                <tr class="judul" style="font-size: 18px; height: 50px;" >
+                    <th> No </th>
+                    <th> Kode Penyakit </th>
+                    <th> Nama Penyakit </th>
+                    <th> Gejala </th>
+                </tr>
+
+                <tr class="table">
+                    <td class="column num">
+                        <ul class="space">
+                            <li> 1 </li>
+                            <li> 2 </li>
+                            <li> 3 </li>
+                        </ul class="space">
+                    </td>
+                    <td class="column Kode">
+                        <ul class="space">
+                            <li> 123 </li>
+                            <li> 123 </li>
+                            <li> 123</li>
+                        </ul class="space">
+                    </td>
+                    <td class="column NamaPenyakit">
+                        <ul class="space">
+                            <li> Demam </li>
+                            <li> Demam </li>
+                            <li> Demam </li>
+                        </ul class="space">
+                    </td>
+                    <td class="column">
+                        <ul class="space">
+                            <li> Suhu Tinggi </li>
+                            <li>Suhu Tinggi </li>
+                            <li>Suhu Tinggi </li>
+                        </ul class="space">
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <!-- End Daftar Penyakit  -->
+    </div>
+
+    <script src="index.js"></script>
+    <script src="Dom.js"></script>
+    <script>
+        $('JS').click('toggle-scale')
+    </script>
+</body>
+</html>

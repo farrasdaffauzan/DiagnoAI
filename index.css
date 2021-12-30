@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&family=Open+Sans+Condensed:wght@300&display=swap');
+
+/* Warna */
+:root {
+    --main-grey : #F7F7F7;
+    --main-Black : #2C272E;
+    --main-red : #FF0000;
+}
+
+/* Font Family
+font-family: 'Open Sans Condensed';
+font-family: 'fuzzy Bubbles'; 
+*/
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
+/* Start Header  */
+header{
+    margin: auto;
+    padding: 0 9px;
+}
+
+.navbar {
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.logNavbar {
+    padding: 0 2rem;
+}
+
+.navlink{
+    padding: 9px 0;
+}
+
+.navlink ul {
+    display: flex;
+    padding: 0;
+    margin: auto;
+    justify-content: space-evenly;
+    width: 15rem;
+}
+
+li {
+    margin: auto;
+    list-style-type: none;
+}
+
+a{
+    color: var(--main-red);
+    text-decoration: none;
+}
+
+/* End Header  */
+hr{
+    margin: 0;
+}
+
+#Periksa{
+    display: none;
+}
+
+.Periksa{
+    display: block !important;
+}
+/* Start container Periksa  */
+
+.container {
+    display: inline-flex;
+    width: 100%;
+}
+
+.main{
+    display: inline-flex;
+    padding: 12px 25px;
+}
+
+.left-content {
+    padding: 17px 3rem;
+}
+
+p {
+    font-size: 18px;
+    display: inline-flex;
+    margin: 6px 0;
+}
+
+h5{
+    font-size: 20px;
+}
+
+.menu {
+    font-size: 22px;
+    text-decoration: none;
+    border: none;
+    padding: 6px 1rem;
+    background-color:white;
+    -webkit-text-stroke: thin;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.menu:hover{
+    background-color: black;
+    color: white;
+    -webkit-text-stroke: none;
+}
+
+.row{
+    padding: 0 11px;
+}
+
+.button{
+    padding: 2rem 6rem;
+    margin: auto;
+    text-align: right;
+}
+
+.btn {
+    padding: 7px 2rem;
+    margin: 0 8px;
+    border-radius: 11px;
+    height: 35px;
+    color: black;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: black;
+    color: white;
+}
+
+#text{
+    margin-right: 41px;
+}
+
+.content{
+    display: block !important;
+}
+
+#Diagnos{
+    display: none;
+}
+
+/* End Container Periksa */
+
+/* start history diagnosa */
+.HistoryDiagnosa{
+    display: block !important;
+    width: 75%;
+}
+
+.table{
+    justify-content: space-evenly;
+}
+
+table {
+    margin: auto;
+    width: 100%;
+}
+
+.column {
+    padding: 7px 3rem;
+    text-align: center;
+}
+
+.space {
+    padding: 0;
+    margin: 0;
+}
+
+.number{
+    padding: 7px 1rem;
+}
+
+#HistoryDiagnosa{
+    display: none;
+}
+
+/* End History Diagnosa  */
+
+/* Start detail History Diagnosa  */
+#DtHistoryDs {
+    position: fixed;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 20;
+    background-color: rgba(203, 209, 243, 0.7);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+    display: none;
+    transition: 1s all !important;
+    transition-property: color !important;
+    justify-content: center;
+    align-items: center;
+}
+
+.detail {
+    text-decoration: none;
+    border: none;
+    background-color:white;
+    color: var(--main-red);
+    cursor: pointer;
+}
+
+.DtHistoryDs {
+    display: flex !important;
+}
+
+.my-container{
+    padding: 1rem;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.form{
+    padding: 10px;
+}
+
+h4{
+    display: inline-flex;
+    width: 140px;
+}
+
+.HsRow{
+    display: inline-flex;
+    width: 50%;
+    border: 1PX solid black;
+    border-radius: 10px;
+}
+
+.box p {
+    margin: 0;
+    padding: 10px;
+}
+
+.input-form{
+    margin: 5px;
+    padding: 5px;
+    height: 30px;
+    width: 250px;
+    border-radius: 17px;
+}
+/* End Detail history Diagnosa */
+
+
+/* Start Daftar Penyakit */
+.Kode{
+    padding: 7px 0;
+    width: 18%;
+}
+
+.num{
+    padding: 7px 0;
+}
+
+.NamaPenyakit{
+    width: 27%;
+}
+
+.tb{
+    margin: 0;
+    width: 80%;
+}
+
+.DaftarPenyakit{
+    display: block !important;
+    width: 75%;
+}
+
+#DaftarPenyakit {
+    display: none;
+}
+/* End Daftar Penyakit */
